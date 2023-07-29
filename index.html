@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDetective</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <!-- header section -->
+            <div class="header">
+                <h2>DevDetective</h2>
+                <button class="mode">
+                    <p mode-para>dark</p>
+                    <img mode-icon src="./images/moon-icon.svg" alt="">
+                </button>
+            </div>
+            <!-- Search Bar Section -->
+            <div class="search-bar">
+                <img src="./images/search-icon.svg" alt="">
+                <input user-input type="text" placeholder="Search for Git Hub Id...">
+                <button submitButton>Search</button>
+            </div>
+            <!-- Hero section -->
+            <div class="hero-section">
+
+                <!-- left part -->
+                <img class="profile-pic" src="" alt="">
+                
+
+                <!-- right part -->
+                <div class="description">
+                    <!-- name and date of joining -->
+                    <div class="head">
+                        <h2 full-name></h2>
+                        <p joined-date></p>
+                    </div>
+                    <!-- user name -->
+                    <p user-name></p>
+
+                    <!-- about -->
+                    <p about></p>
+
+                    <!-- followers and following -->
+                    <div class="follow-box">
+                        <!-- repository -->
+                        <div class="repository">
+                            <p> Repos </p>
+                            <h2 repos-total></h2>
+                        </div>
+                        <!-- followers -->
+                        <div class="followers">
+                            <p> Followers </p>
+                            <h2 followers-total></h2>
+                        </div>
+                        <!-- following -->
+                        <div class="following">
+                            <p> Following </p>
+                            <h2 following-total></h2>
+                        </div>
+                    </div>
+
+                    <!-- footer -->
+                    <div class="contacts">
+                        <!-- location -->
+                        <div>
+                            <img src="./images/location-icon.svg" alt="">
+                            <p location></p>
+                        </div>
+                        <!-- website -->
+                        <div>
+                            <img src="./images/website-icon.svg" alt="">
+                            <p website></p>
+                        </div>
+                        <!-- twitter -->
+                        <div>
+                            <img src="./images/twitter-icon.svg" alt="">
+                            <p twitter></p>
+                        </div>
+                        <!-- company -->
+                        <div>
+                            <img src="./images/company-icon.svg" alt="">
+                            <p company></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Error Window -->
+            <div class="error-hero-section" >
+                <img src="./images/not-found.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
