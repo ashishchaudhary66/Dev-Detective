@@ -41,7 +41,7 @@
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
-    padding: 0.3rem 1rem;
+    padding: 1rem 1rem;
     border: 2px solid white;
     justify-content: space-between;
     background-color: aliceblue;
@@ -58,6 +58,7 @@
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1.5px;
+    color: rgba(0, 0, 0, 0.75);
     outline: none;
 }
 .search-bar button{
@@ -180,8 +181,8 @@
     }
 
     .search-bar{
-        padding: 0.2rem 5px;
-        border-radius: 8px;
+        padding: 0.75rem 10px;
+        border-radius: 1rem;
     }
     .search-bar img{
         width: 20px;
