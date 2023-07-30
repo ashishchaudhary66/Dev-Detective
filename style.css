@@ -139,7 +139,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     gap :1rem;
-    padding: 2rem 2rem;
+    margin-left: 1rem;
 }
 .contacts div{
     position: relative;
