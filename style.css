@@ -13,7 +13,7 @@
 }
 .container{
     position: relative;
-    width: 70%;
+    width:60%;
     display: flex;
     flex-direction: column;
     margin: 3rem auto;
@@ -61,7 +61,8 @@
     outline: none;
 }
 .search-bar button{
-    width: 20%;
+    width: 100%;
+    max-width: 100px;
     background-color: rgba(10, 57, 246, 0.825);
     padding: 10px 25px;
     font-size: 14px;
@@ -111,7 +112,7 @@
     align-items: center;
 }
 .head h2{
-    font-size: 25px;
+    font-size: 20px;
 }
 [user-name]{
     margin-top: -1rem;
@@ -164,7 +165,7 @@
 
 @media screen and (max-width:700px) {
     .container{
-        width: 95%;
+        width: 97%;
     }
     [about]{
         font-size: 12px;
@@ -179,10 +180,13 @@
     }
 
     .search-bar{
-        padding: 0px 3px;
+        padding: 0.2rem 5px;
         border-radius: 8px;
     }
-
+    .search-bar img{
+        width: 20px;
+        height: 20px;
+    }
     .search-bar input{
         padding-left: 10px;
         padding-right: 10px;
