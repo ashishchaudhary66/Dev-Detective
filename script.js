@@ -114,7 +114,7 @@ function dark(){
     wrapper.style.color=text;
     searchBar.style.backgroundColor=dark2;
     searchBar.style.color=text;
-    searchBar.style.border='none';
+    searchBar.style.border= '2px solid '+dark1;
     userId.style.color=text;
     searchBar.style['-webkit-box-shadow'] ='0px 0px 20px black';
     button.style.backgroundColor=dark1;
